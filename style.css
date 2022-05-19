@@ -90,7 +90,7 @@ Version: 0.1
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
-    margin-left: 34px;
+    margin-left: 33px;
     padding: 23px 0;
 }
 .dreamit_menu ul li:last-child a {
@@ -452,6 +452,7 @@ a.dtbtn:hover {
 =============================*/
 .single_slider_shape {
     position: relative;
+    display: none;
 }
 .single_slider_shape_image {
     position: absolute;
@@ -1118,10 +1119,11 @@ a.dtbtn:hover {
 	dreamit Feature Box Area  Css
 =================================*/
 .feature_box_area {
+    background: #F7FAFD;
     padding: 78px 0 65px;
 }
 .single_feature_box {
-    padding: 46px 25px 30px;
+    padding: 25px;
     -webkit-box-shadow: 0px 6px 40px 0px rgba(148, 146, 245, 0.2);
     box-shadow: 0px 6px 40px 0px rgba(148, 146, 245, 0.2);
     border-radius: 10px;
@@ -3159,4 +3161,14 @@ a.dtbtn:hover {
   100% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
   }
+}
+
+
+/* Wadud Khaled CSS Working */
+.single_team_thumb img {
+    width: 150px;
+    height: 150px;
+}
+.copy-right-text a {
+    color: #0056b3;
 }
