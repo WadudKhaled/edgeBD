@@ -1119,11 +1119,11 @@ a.dtbtn:hover {
 	dreamit Feature Box Area  Css
 =================================*/
 .feature_box_area {
-    background: #F7FAFD;
+    /* background: #F7FAFD; */
     padding: 78px 0 65px;
 }
 .single_feature_box {
-    padding: 47px 25px 30px;
+    padding: 25px;
     -webkit-box-shadow: 0px 6px 40px 0px rgba(148, 146, 245, 0.2);
     box-shadow: 0px 6px 40px 0px rgba(148, 146, 245, 0.2);
     border-radius: 10px;
